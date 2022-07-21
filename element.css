@@ -1,0 +1,41 @@
+p,a{
+    color: rgb(134, 175, 134);
+}
+li{
+    list-style-type: square;
+}
+span.element,li.element{
+    color: rgb(30, 226, 200);
+    font-weight: bold;
+}
+li em{
+    color: rebeccapurple;
+}
+h1+p{
+    font-size: 200%;
+}
+a:hover{
+    color: saddlebrown;
+    text-decoration: none;
+}
+body h1+p .element{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
+* [lang^=en] {
+    color: green;
+}
+
+*.warning {
+    color: red;
+}
+*#maincontent {
+    border: 1px solid blue;
+}
+.floating {
+    float: left
+}
+.floating+* {
+    clear: left;
+}
